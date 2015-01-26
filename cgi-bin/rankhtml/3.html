@@ -1,0 +1,916 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<META http-equiv="Content-Style-Type" content="text/css">
+<SCRIPT Language="JavaScript" src=".././html/const.js" type="text/javascript">
+</SCRIPT>
+<STYLE type="text/css">
+<!--
+BODY{
+  font-family : ＭＳ　明朝;
+  font-size:12px;
+  color:#aaaaff;
+  background-image : url(../);
+  background-attachment : fixed;
+}
+.red{font-family : ＭＳ　明朝;color:#ff5555;}
+.yellow{font-family : ＭＳ　明朝;color:#ffff55;}
+.blue{font-family : ＭＳ　明朝;color:#5555ff;}
+.green{font-family : ＭＳ　明朝;color:#55ff55;}
+.white{font-family : ＭＳ　明朝;color:#aaaaff;}
+.dark{font-family : ＭＳ　明朝;color:#333399;}
+.small{font-size:8px;ＭＳ　明朝;color:#ff5555;}
+//-->
+</STYLE>
+<link rel="stylesheet" href=".././html/cgi.css" type="text/css">
+<title>JupiterFFA</title></head>
+<body background="../" bgcolor="#000011" text="#aaaaff" link="#8888ff" vlink="#999999" alink="#ff5500">
+<h1>登録者一覧</h1><hr size=0>
+<br>現在の登録者数<b>334</b>人<br>
+現在登録されているキャラクターの中で、レベル上位<b>60</b>人目から<b>79</b>人目を表示しています。<br>
+<font size =3 color =red><b>ただし、更新は１日に１回しか行われません。</b></font>前回は7月27日19時29分に更新されました。<br>
+※名前をクリックすると詳細情報がご覧になれます♪<br>
+<table><tr><td id="td1" align="center">61</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.nicovideo.jp/" TARGET="_blank">ニコニコ動画</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>38</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>1240</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>1200</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>49</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">867</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">779800</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>800</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>200</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">80%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">65</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=zeek">カーバンクル</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">詩人</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>520%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>160%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>90%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>140%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">16368回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残343日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">62</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www25.atpages.jp/omegazero/" TARGET="_blank">FFA</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>140</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>1538</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>300</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>700</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">769</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">1548147</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>210</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>210</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">76%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">11</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=omega">omega</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">テイマー</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>161%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>40%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>31%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>83%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">4269回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残297日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">63</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1291451921_90922.jpg
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://w3.oroti.com/~konohiroisekai/" TARGET="_blank">・・・</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>1460</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>679</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">746</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">565400</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>800</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">85%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">39</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=9045">ギュスターヴ</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">踊り子</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>346%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>107%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>90%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>90%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">28033回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残-223日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">64</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/Img_42018.gif"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://google.co.jp" TARGET="_blank">http://google.co.jp</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>255</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>1100</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>1000</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>250</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">746</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">570372</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>200</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>330</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">74%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">59</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=skyph">タルテ</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">軍師</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>393%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>110%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>30%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>112%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">12009回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残210日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">65</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/snowman.png"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>1100</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>455</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>700</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">572</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">1539557</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">86%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">51</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=maron">千陽</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">侍</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>191%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>45%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">18935回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残306日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">66</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1298889818_86529.jpg
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>1100</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>300</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>5</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">551</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">370457</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>20</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>800</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">70%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">14</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=aiue">孤独な剣士</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">アーチャー</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>142%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>31%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>12%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>212%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">20067回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残291日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">67</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/snowman.png"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>700</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>200</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>500</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">536</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">1720904</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>265</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>500</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">88%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">19</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=mukudori">むくどり</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">シーフ</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>133%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>33%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>36%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>161%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">8782回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残282日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">68</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1306069350_28539.jpg
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>800</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>550</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">474</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">299400</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>500</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">91%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">56</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=akak">シシカバ</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">覇王</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>223%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>55%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>135%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">16514回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残113日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">69</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>875</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>270</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>5</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">465</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">290883</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>250</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>380</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">78%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">19</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=rarufu">らる</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">格闘家</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>155%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>39%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>35%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>130%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">10064回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残83日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">70</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/snowman.png"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="オススメHP" TARGET="_blank">オススメHP</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>838</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>300</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>878</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">448</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">2241920</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">86%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">16</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=oeuia">トライバル</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">アーチャー</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>140%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>30%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">5897回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残364日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">71</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1295243530_84410.jpg
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="patisserie-straycats.com" TARGET="_blank">迷い猫オーバーラン</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>780</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>377</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">407</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">245200</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>490</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">73%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">114</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=serizawa">高町なのは　一等空尉</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">役者</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>165%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>37%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>132%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">10410回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残208日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">72</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1283939229_52175.gif
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>536</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>200</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">405</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">625313</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>100</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>800</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">65%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">17</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=7309034">虎次郎</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">ビショップ</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>50%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>5%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>20%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>220%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">5146回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残364日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">73</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">kurou</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>758</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>446</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>107</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">380</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">226622</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>53</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>173</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">70%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">21</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=kurou">クロウ</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">レンジャー</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>193%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>47%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>15%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>58%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">10773回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残32日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">74</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1285151717_52714.jpg
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www15.atpages.jp/~jupiterffa2/public_html/cgi-bin/" TARGET="_blank">ジュピター</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>670</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>401</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">338</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">190000</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>88</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>201</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">64%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">12</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=aberu">Cloud</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">忍者</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>182%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>44%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>18%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>68%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">6453回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残112日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">75</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1283875965_27150.gif
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>608</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>608</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">304</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">172035</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>19</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">80%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">4</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=wings">ウィングス</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">プリンス</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>42%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>1%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>11%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>11%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">32194回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残45日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">76</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/wizard.png"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>304</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>233</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>518</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">259</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">1567455</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">82%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">55</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=INABA">ミエナイチカラ</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">ネクロマンサー</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>117%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>23%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">6923回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残310日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">77</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1284300090_14120.gif
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>285</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>137</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>401</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">252</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">126909</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>101</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>101</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">93%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">153</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=1752">燐</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">役者</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>95%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>18%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>20%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>45%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">31776回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残241日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">78</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1284586574_14862.gif
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www28.atwiki.jp/ffagame/pages/1.html" TARGET="_blank">JupiterFFA　ウィキ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>434</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>55</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>272</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">217</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">100751</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>27</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>101</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">81%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">5</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=09010">レオン</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">シーフ</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>61%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>6%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>12%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>37%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">27008回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残280日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">79</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1301210120_8525.jpg
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>393</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>37</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>329</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">212</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">162029</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>1</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>105</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">77%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">38</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=ghtu">あられ</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">気象士</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>52%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>3%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>10%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>36%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">3704回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残349日</td>
+</tr></table></td></tr></table>
+<table><tr><td id="td1" align="center">80</td>
+<td><table border="1"><tr>
+<td rowspan="2" width="50" align=center><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/1287204547_90485.jpg
+"></td>
+<td id="td2" align="center" width="50">サイト</td>
+<td align="center" width="100"><a href="http://www.eriicu.com" TARGET="_blank">いくのＣＧＩのＨＰ</a></td>
+<td id="td2" align="center" width="50">STR</td>
+<td align="left" width="100"><b>1</b></td>
+<td id="td2" align="center" width="50">INT</td>
+<td align="left" width="100"><b>265</b></td>
+<td id="td2" align="center" width="50">DEX</td>
+<td align="left" width="100"><b>63</b></td>
+<td id="td2" align="center" width="50">VIT</td>
+<td align="left" width="100"><b>21</b></td>
+<td id="td2" align="center">レベル</td>
+<td align="center">201</td>
+</tr><tr>
+<td id="td2" align="center" width="50">HP</td>
+<td align="center" width="100">81963</td>
+<td id="td2" align="center" width="50">LUK</td>
+<td align="left" width="100"><br><b>141</b></td>
+<td id="td2" align="center" width="50">EGO</td>
+<td align="left" width="100"><br><b>243</b></td>
+<td id="td2" align="center">勝率</td>
+<td align="center">65%</td>
+<td id="td2" align="center">転生回数</td>
+<td align="center">7</td>
+</tr><tr>
+<td width="50" align=center><a href=".././system.cgi?mode=chara_sts&id=1224">グラント・ダナスティ</a></td>
+<td id="td2" align="center" width="50">職業</td>
+<td align="center" width="100">踊り子</td>
+<td id="td2" align="center" width="50">命中率</td>
+<td align="left" width="100"><br><b>75%</b></td>
+<td id="td2" class="b2" width="80">回避率</td>
+<td align="left" width="100"><b><br>13%</b></td>
+<td id="td2" align="center" width="50">会心率</td>
+<td align="left" width="100"><br><b>24%</b></td>
+<td id="td2" align="center" width="50">必殺率</td>
+<td align="left" width="100"><br><b>84%</b></td>
+<td id="td2" align="center" width="50">戦闘回数</td>
+<td align="center" width="100">8067回</td>
+<td id="td2" align="center">削除まで</td>
+<td align="center">残303日</td>
+</tr></table></td></tr></table>
+<br><a href="2.html">前の 20 件</a> ／<a href="4.html">次の 20 件</a>
+<br><br><table border=0 width=100%><tr><td align=center width=10%>[<a href="0.html">1位～20位</a>]</td><td align=center width=10%>[<a href="1.html">21位～40位</a>]</td><td align=center width=10%>[<a href="2.html">41位～60位</a>]</td><td align=center width=10%>[<a href="3.html">61位～80位</a>]</td><td align=center width=10%>[<a href="4.html">81位～100位</a>]</td><td align=center width=10%>[<a href="5.html">101位～120位</a>]</td><td align=center width=10%>[<a href="6.html">121位～140位</a>]</td><td align=center width=10%>[<a href="7.html">141位～160位</a>]</td><td align=center width=10%>[<a href="8.html">161位～180位</a>]</td><td align=center width=10%>[<a href="9.html">181位～200位</a>]</td></tr><tr><td align=center width=10%>[<a href="10.html">201位～220位</a>]</td><td align=center width=10%>[<a href="11.html">221位～240位</a>]</td><td align=center width=10%>[<a href="12.html">241位～260位</a>]</td><td align=center width=10%>[<a href="13.html">261位～280位</a>]</td><td align=center width=10%>[<a href="14.html">281位～300位</a>]</td><td align=center width=10%>[<a href="15.html">301位～320位</a>]</td><td align=center width=10%>[<a href="16.html">321位～334位</a>]</td></tr></table><a href = ".././others.cgi">JupiterFFAのTOPへ</a>
+<HR SIZE=0 WIDTH="100%"><DIV align=right>
+FFA いく改ver2.00 edit by <a href="http://www.eriicu.com" target="_top">いく</a><br>
+FFA Emilia Ver1.01 remodeled by Classic(閉鎖)<br>
+FF Battle De I v3.06 remodeling by <a href="http://www.mj-world.jp/" target="_blank">jun-k</a>(更新停止中)<br>
+FF ADVENTURE(改) v1.040 remodeled by <a href="http://www.gun-online.com" target="_blank">ＧＵＮ</a><br>
+FF ADVENTURE v0.43 edit by D.Takamiya(CUMRO) <a href="http://www5c.biglobe.ne.jp/~ma-ti/" target="_blank">現配布元(管理者ma-ti)</a><br>
+</DIV></body></html>
+</body></html>

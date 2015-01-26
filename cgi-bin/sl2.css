@@ -1,0 +1,14 @@
+textarea,input { background: #ffffdd;
+	color: #002188;
+	border-top: #ffff00 solid 2px;
+	border-left: #ffff00 solid 2px;
+	border-right: #ffff00 solid 2px;
+	border-bottom: #ffff00 solid 2px;
+        font: 13px
+}
+A:link { text-decoration: none; color:#ff0000 }
+A:visited { text-decoration: none; color:#AA99FF }
+A:active { text-decoration: none; color:orange }
+A:hover { text-decoration: none; color:#ff00ff }
+A   { font-family:Arial;font-size:12pt }
+#tblay  { position:absolute;top:-100;left:-100 }

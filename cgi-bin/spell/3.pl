@@ -1,0 +1,51 @@
+sub spell3{
+	for($spe=1;$spe<5;$spe++){
+	if($spe==$sp){
+	${'maho'.$sp}=1;
+	${'dmg'.$sp} = int(${'dmg'.$sp} * 2);
+	if($sp==1){
+		if($chara[24]==1333){${'dmg'.$sp} = int(${'dmg'.$sp} * 6);}
+		if($chara[29]==2307){${'dmg'.$sp} = int(${'dmg'.$sp} * 4);}
+		if($mahoken==1){
+			${'com'.$sp} .="<font class=\"red\" size=5>魔法剣ファイガ!!</font><br>";
+		}else{
+			${'com'.$sp} .="<font class=\"red\" size=5>$chara[4]は黒魔法ファイガを放った!!</font><br>";
+			if ($chara[55]==32 or $chara[56]==32 or $chara[57]==32 or $chara[58]==32){
+				${'dmg'.$sp} = ${'dmg'.$sp} * 2;
+				${'com'.$sp} .="<font class=\"yellow\" size=5>秘技、連続魔法発動!!</font><br>";
+			}
+		}
+	}else{
+		$ri=$sp-1;
+		if(${'mem'.$ri}[24]==1333){${'dmg'.$sp} = int(${'dmg'.$sp} * 6);}
+		if(${'mem'.$ri}[29]==2307){${'dmg'.$sp} = int(${'dmg'.$sp} * 4);}
+		if($mahoken==1){
+			${'com'.$sp} .="<font class=\"red\" size=5>魔法剣ファイガ!!</font><br>";
+		}else{
+			${'com'.$sp} .="<font class=\"red\" size=5>${'mem'.$ri}[4]は黒魔法ファイガを放った!!</font><br>";
+			if (${'mem'.$ri}[55]==32 or ${'mem'.$ri}[55]==32 or ${'mem'.$ri}[55]==32 or ${'mem'.$ri}[55]==32){
+				${'dmg'.$sp} = ${'dmg'.$sp} * 2;
+				${'com'.$sp} .="<font class=\"yellow\" size=5>秘技、連続魔法発動!!</font><br>";
+			}
+		}
+	}
+	}
+	}
+	for($spe=1;$spe<5;$spe++){
+	if($spe==$ssp){
+	${'sdmg'.$ssp} = int(${'sdmg'.$ssp} * 2);
+	if(${'smem'.$ssp}[24]==1333){${'sdmg'.$ssp} = int(${'sdmg'.$ssp} * 6);}
+	if(${'smem'.$ssp}[29]==2307){${'sdmg'.$ssp} = int(${'sdmg'.$ssp} * 4);}
+	if($mahoken==1){
+		${'scom'.$ssp} .="<font class=\"red\" size=5>魔法剣ファイガ!!</font><br>";
+	}else{
+		${'scom'.$ssp} .="<font class=\"red\" size=5>${'smem'.$ssp}[4]は黒魔法ファイガを放った!!</font><br>";
+		if (${'smem'.$ssp}[55]==32 or ${'smem'.$ssp}[55]==32 or ${'smem'.$ssp}[55]==32 or ${'smem'.$ssp}[55]==32){
+			${'sdmg'.$ssp} = ${'sdmg'.$ssp} * 2;
+			${'scom'.$ssp} .="<font class=\"yellow\" size=5>秘技、連続魔法発動!!</font><br>";
+		}
+	}
+	}
+	}
+}
+1;

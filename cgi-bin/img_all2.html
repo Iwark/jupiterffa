@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<META http-equiv="Content-Style-Type" content="text/css">
+<SCRIPT Language="JavaScript" src="./html/const.js" type="text/javascript">
+</SCRIPT>
+<STYLE type="text/css">
+<!--
+BODY{
+  font-family : ＭＳ　明朝;
+  font-size:12px;
+  color:#aaaaff;
+  background-image : url();
+  background-attachment : fixed;
+}
+.red{font-family : ＭＳ　明朝;color:#ff5555;}
+.yellow{font-family : ＭＳ　明朝;color:#ffff55;}
+.blue{font-family : ＭＳ　明朝;color:#5555ff;}
+.green{font-family : ＭＳ　明朝;color:#55ff55;}
+.white{font-family : ＭＳ　明朝;color:#aaaaff;}
+.dark{font-family : ＭＳ　明朝;color:#333399;}
+.small{font-size:8px;ＭＳ　明朝;color:#ff5555;}
+//-->
+</STYLE>
+<link rel="stylesheet" href="./html/cgi.css" type="text/css">
+<title>画像一覧</title></head>
+<body background="" bgcolor="#000011" text="#aaaaff" link="#8888ff" vlink="#999999" alink="#ff5500">
+<center>
+<table border="1">
+<tr><td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/kill.png"><br>60</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/knocker.png"><br>61</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/kobold.png"><br>62</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/lamia.png"><br>63</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/lamp.png"><br>64</td>
+</tr>
+<tr>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/leprechaun.png"><br>65</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/little_witch.png"><br>66</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/lobster.png"><br>67</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/lycanthrope.png"><br>68</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/mammoth.png"><br>69</td>
+</tr>
+<tr>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/maneater.png"><br>70</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/mantaray.png"><br>71</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/manticore.png"><br>72</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/mantis.png"><br>73</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/mecha.png"><br>74</td>
+</tr>
+<tr>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/mecha_dog.png"><br>75</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/medosa.png"><br>76</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/mermaid.png"><br>77</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/mini_golem.png"><br>78</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/moai.png"><br>79</td>
+</tr>
+<tr>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/necromancer.png"><br>80</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/nightmare_w.png"><br>81</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/nymphe.png"><br>82</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/octpus.png"><br>83</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/ogre.png"><br>84</td>
+</tr>
+<tr>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/orcs.png"><br>85</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/ostrich.png"><br>86</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/oumu.png"><br>87</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/owl.png"><br>88</td>
+<td align="center" valign="bottom"><img src="http://www15.atpages.jp/jupiterffa2/public_html/cgi-bin/images/chara/pan.png"><br>89</td>
+</tr>
+<tr>
+
+</tr>
+</table>
+画像一覧別ページ<br>
+[<a href = "./img_all0.html">0</a>][<a href = "./img_all1.html">1</a>][<a href = "./img_all2.html">2</a>][<a href = "./img_all3.html">3</a>][<a href = "./img_all4.html">4</a>]
+</center>
+<HR SIZE=0 WIDTH="100%"><DIV align=right>
+FFA いく改ver2.00 edit by <a href="http://www.eriicu.com" target="_top">いく</a><br>
+FFA Emilia Ver1.01 remodeled by Classic(閉鎖)<br>
+FF Battle De I v3.06 remodeling by <a href="http://www.mj-world.jp/" target="_blank">jun-k</a>(更新停止中)<br>
+FF ADVENTURE(改) v1.040 remodeled by <a href="http://www.gun-online.com" target="_blank">ＧＵＮ</a><br>
+FF ADVENTURE v0.43 edit by D.Takamiya(CUMRO) <a href="http://www5c.biglobe.ne.jp/~ma-ti/" target="_blank">現配布元(管理者ma-ti)</a><br>
+</DIV></body></html>
